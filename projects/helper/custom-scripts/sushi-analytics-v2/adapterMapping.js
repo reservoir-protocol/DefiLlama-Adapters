@@ -9,8 +9,10 @@ module.exports = {
         'lisa': '/lisa/api',
         'chutes': '/chutes/api',
         'zest': '/zest/api',
+        'hermetica-hbtc': '/hermetica-hbtc/api',
       },
       {
+        'hermetica': '/hermetica/api',
         'bifrost-staking': '/bifrost-staking/api',
         'sora': '/sora/api',
         'bifrost-dex': '/bifrost-dex/api',
