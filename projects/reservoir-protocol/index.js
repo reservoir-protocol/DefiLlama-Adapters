@@ -1,1 +1,1 @@
-const { sumTokens2 } = require("../helper/unwrapLPs"); module.exports = { ethereum: { tvl: async (api) => { await api.sumTokens({ owners: ["0x289C204B35859bFb924B9C0759A4FE80f610671c"], tokens: ["0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"] }); } } }
+const{sumTokensExport}=require("../helper/unwrapLPs");module.exports={ethereum:{tvl:sumTokensExport({owners:["0x289C204B35859bFb924B9C0759A4FE80f610671c"],tokens:["0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"]})}}
